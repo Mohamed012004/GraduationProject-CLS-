@@ -1,4 +1,10 @@
-# Ignore local development and environment-specific settings
+bin/
+obj/
+
+.vs/
+.idea/
+.vscode/
+
 appsettings.Development.json
 appsettings.Local.json
 appsettings.json

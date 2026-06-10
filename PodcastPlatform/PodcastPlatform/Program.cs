@@ -15,7 +15,7 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure URLs explicitly
+// CConfigure URLs explicitly
 builder.WebHost.UseUrls("https://localhost:7098", "http://localhost:5024");
 
 // Add services to the container

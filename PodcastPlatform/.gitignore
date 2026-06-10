@@ -1,0 +1,5 @@
+# Ignore local development and environment-specific settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
+*.Secret.json
